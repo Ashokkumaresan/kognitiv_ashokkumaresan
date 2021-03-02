@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+#root{
+  height: 100%;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+ 
+  align-content: space-evenly;
+  height: 100%;
+}
+.content_holder{
+  flex: 1 1 0%;
+    text-align: center;
+    background: rgb(87,202,188);
+background: linear-gradient(90deg, rgba(87,202,188,1) 0%, rgba(100,215,197,1) 48%, rgba(113,228,205,1) 100%);
+}
+.content_holder h1{
+  font-size: 4rem;
+  position: relative;
+  top: calc(100% - 60%);
+}
+.form-control{
+  flex: 1 1 20%;
+  background: rgb(39,53,71);
+  background: linear-gradient(90deg, rgba(39,53,71,1) 0%, rgba(47,63,84,1) 48%, rgba(56,74,98,1) 100%);
+ 
+}
+.ant-form h2{
+  text-align: center;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.ant-form-item-label > label ,.ant-select-arrow{
+  color: #fff!important;
+}
+.ant-select-selector,.ant-input{
+  background: transparent!important;
+  color: #fff!important;
+}
+.ant-btn-primary:active,.ant-btn-primary{
+  background: rgb(87,202,188)!important;
+  background: linear-gradient(90deg, rgba(87,202,188,1) 0%, rgba(100,215,197,1) 48%, rgba(113,228,205,1) 100%)!important;
+}
+.form-control form{
+  position: relative;
+  top: calc(100% - 70%);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
